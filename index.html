@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYS_topup</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS (optional, for components like modal, dropdown, etc.) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <!-- header -->
+        <div class="header">
+            <div class="logo">
+
+                <img src="assets/image/sys topup-02-1500h.webp" alt="">
+            </div>
+
+            <div class="manu">
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Privacy</a>
+            </div>
+        </div>
+
+        <!-- body  -->
+        <div class="body">
+            <div class="container">
+                <!-- slide  -->
+                <div class="slide">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/image/image_2024-11-14_20-06-04.webp" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/image/Top up banner-2.webp" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/image/Top up banner.webp" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span aria-hidden="true">
+                                <i class="bi bi-chevron-left" style=" color: #0d6efd; font-size: 60px;"></i>
+                            </span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span aria-hidden="true">
+                                <i class="bi bi-chevron-right" style=" color: #0d6efd; font-size: 60px;"></i>
+                            </span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+
+                <!-- input-box  -->
+                <div class="infor">
+                    <div class="title">
+                        <img src="https://systopup.com/game/public/asset/image/mlbb-200h.webp" alt="">
+                        <div class="warning">
+                            <span>Mobile Legend : Bang Bang</span>
+                            <div class="sub">
+                                <span><i class="bi bi-shield-fill-exclamation"></i> Safety guarantee</span>
+                                <span style="margin-left: 10px;"><i class="bi bi-lightning-fill"
+                                        style="color: yellow;"></i> Instant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="state">
+                        <span>Enter Your Game ID</span>
+                        <hr>
+                    </div>
+
+                    <div class="box-input">
+                        <input type="number" required="true" placeholder="User ID" class="mlbb-textinput1" id="userId">
+                        <input type="number" required="true" placeholder="Server ID" class="mlbb-textinput2"
+                            id="serverId">
+                        <button>Check</button>
+                    </div>
+
+                </div>
+
+                <!-- buying  -->
+                <h1 style="width: 100%;color: #ffff; font-size: 24px; font-family: Poppins ">Best Selling</h1>
+                <div class="product" id="bestsell">
+                    <!-- best selling  -->
+                    <!-- <div class="product-items">
+                        <div class="right">
+                            <img src="https://systopup.com/admin-control/uploads/IMG_2212.webp" alt="">
+                        </div>
+                        <div class="left">
+                            <span class="price">$0.70</span>
+                            <span class="title">SuperValuePass</span>
+                            <span class="subtitle">( none )</span>
+                        </div>
+                    </div> -->
+
+                </div>
+                <h1 style="width: 100%;color: #ffff; font-size: 24px; font-family: Poppins ">Saving Packages</h1>
+                <div class="product" id="saving">
+                    <!-- saving  -->
+                </div>
+
+                <h1 style="width: 100%;color: #ffff; font-size: 24px; font-family: Poppins ">Diamond x2</h1>
+                <h1 style="width: 100%;color: #ffff; font-size: 24px; font-family: Poppins ; margin-top: 60px;">Select
+                    your payment method </h1>
+
+                <!-- payment  -->
+                <div class="payment">
+                    <div class="scan">
+                        <img src="https://systopup.com/game/public/asset/image/khqr.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <span class="text-qr">ABA KHQR</span>
+                        <span class="text-cap">Scan to pay with any banking app</span>
+                    </div>
+                </div>
+                <div class="note">
+
+                    <label><input type="checkbox"> I agree with <a href="">Term Condition and Policy</a></label>
+                </div>
+                <!-- total  -->
+                <div class="total">
+                    <div class="text-total">
+                        <div class="pay">
+                            <span>Total : </span> <span class="t-price"> $ 0.00</span>
+                            <div>
+
+                            </div>
+                            <span>Item : </span>
+                            <span class="t-item"> None</span>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="btn-pay">
+                        <button id="check" type="button" class="mlbb-button2 button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            <svg width="24" height="24" viewBox="0 0 24 24" class="mlbb-icon64">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path
+                                        d="M5 6.5a.5.5 0 0 1 .5-.5H16a1 1 0 1 0 0-2H5.5A2.5 2.5 0 0 0 3 6.5V18a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2H5.5a.5.5 0 0 1-.5-.5"
+                                        fill="currentColor"></path>
+                                </g>
+                            </svg>
+                            <span class="mlbb-text">Check Out</span>
+                        </button>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content"
+                                style="display: flex; justify-content: center; align-items: center; width: 400px; height: 366px; margin-top: 200px;">
+                                <div class="modal-header"
+                                    style="width: 360px; height: 53px; background-color: #c70c00; margin-top: 10px; ">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"
+                                        style="display: flex; justify-content: center; align-items: center; color: white;">
+                                        Confirm Your Order</h1>
+                                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                                </div>
+                                <div class="modal-body">
+                                    <span class="re-text">Transaction ID: sys<span
+                                            id="random-number">57039487</span></span><br>
+                                    <span class="re-text">User ID: <span class="use-Id"> 407031191</span></span><br>
+                                    <span class="re-text">Sever ID:</span> <span class="ser-ID">3852</span><br>
+                                    <span class="re-text">Item:</span> <span class="m-title">1928 Diamonds</span><br>
+                                    <span class="re-text">Price</span> <span class="m-price">$0.00</span><br>
+                                    <span class="re-text">Date:</span> <span id="date-time">2025-03-14 16:36:59</span>
+                                </div>
+                                <div class="modal-footer w-100" style="display: flex; justify-content: space-around">
+                                    <button type="button" class="btn" data-bs-dismiss="modal"
+                                        style="width: 162px; height: 38px; background-color: #e53935; font-family: Poppins; font-size: 16px; color: white;">Close</button>
+                                    <button type="button" class="btn"
+                                        style="width: 162px; height: 38px; background-color: #4caf50; font-family: Poppins; font-size: 16px; color: white;">Save
+                                        changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer  -->
+        <div class="footer">
+            <div class="footer-list">
+                <!-- logo  -->
+                <div class="f-logo">
+                    <img src="https://systopup.com/admin-control/uploads/sys%20topup-02-1500h.webp" alt="">
+                </div>
+                <!-- title  -->
+                <div class="f-title">
+                    <br>
+                    <span>Experience seamless online game top-up services at Soon Shop, offering unbeatable deals on
+                        popular titles like Mobile Legends, Free Fire, and more. Enjoy fast, secure, and reliable
+                        transactions.</span><br><br>
+                    <span>For inquiries, please contact us via Telegram (Chat only)</span>
+                    <span>+855 96 727 5341</span><br><br>
+                    <span class="title-media">Social Media </span>
+                </div>
+                <!-- media  -->
+                <div class="media">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-tiktok"></i>
+                    <i class="bi bi-telegram"></i>
+                </div>
+                <div class="accept">
+                    <span>We Accept:</span>
+                    <img src="https://systopup.com/game/public/asset/image/aba-pay.svg" alt="">
+                    <img src="https://systopup.com/game/public/asset/image/khqr.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- copyright  -->
+        <div class="copy">
+            <span>Copyright © 2024 SYSTOP UP. All Rights Reserved.</span>
+        </div>
+
+    </div>
+
+    <script src="assets/JS/index.js"></script>
+</body>
+
+</html>
